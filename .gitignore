@@ -37,3 +37,8 @@ config/database.yml
 
 # Python venv (for EBCLI)
 venv/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
