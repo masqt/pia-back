@@ -6,6 +6,9 @@ git_source(:github) do |repo_name|
 end
 
 
+# dotenv
+gem 'dotenv-rails', groups: [:development, :test]
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'active_model_serializers', '~> 0.10.0'
 gem 'rails', '~> 5.0.6'

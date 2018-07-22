@@ -56,6 +56,10 @@ GEM
     case_transform (0.2)
       activesupport
     concurrent-ruby (1.0.5)
+    dotenv (2.5.0)
+    dotenv-rails (2.5.0)
+      dotenv (= 2.5.0)
+      railties (>= 3.2, < 6.0)
     erubis (2.7.0)
     factory_girl (4.8.0)
       activesupport (>= 3.0.0)
@@ -146,6 +150,7 @@ DEPENDENCIES
   byebug
   carrierwave (~> 1.0)
   carrierwave-base64 (~> 2.6.1)
+  dotenv-rails
   factory_girl_rails (~> 4.0)
   figaro
   listen (~> 3.0.5)
@@ -158,4 +163,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   1.16.0
+   1.16.1
