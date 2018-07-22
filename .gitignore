@@ -34,3 +34,6 @@ config/database.yml
 /public/uploads/*
 /data
 .ruby-version
+
+# Python venv (for EBCLI)
+venv/
